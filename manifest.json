@@ -1,0 +1,30 @@
+{
+
+	"manifest_version": 2,
+	"name": "qrcode-extension",
+	"version": "1.0",
+	"description": "Simple extension that displays a QR code for the current URL, just point the camera and quickly view the website on mobile.",
+
+	"icons": {
+		"16": "icons/qrcode-16.png",
+		"32": "icons/qrcode-32.png",
+		"48": "icons/qrcode-48.png",
+		"128": "icons/qrcode-128.png"
+	},
+
+	"permissions": [
+		"activeTab"
+	],
+
+	"browser_action": {
+		"default_icon": {
+			"16": "icons/qrcode-16.png",
+			"32": "icons/qrcode-32.png",
+			"48": "icons/qrcode-48.png",
+			"128": "icons/qrcode-128.png"
+		},
+		"default_title": "QR code",
+		"default_popup": "popup/qrcode.html"
+	}
+
+}
