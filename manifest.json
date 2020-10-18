@@ -3,7 +3,7 @@
 	"manifest_version": 2,
 	"name": "qrcode-extension",
 	"version": "1.0",
-	"description": "Browser extension that displays a QR code for the current URL, just point the camera and quickly access the website on mobile.",
+	"description": "Browser extension that displays a QR code for the current URL, just point the camera to quickly access the website on mobile.",
 
 	"icons": {
 		"16": "icons/qrcode-16.png",
