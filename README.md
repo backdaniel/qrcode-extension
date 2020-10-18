@@ -6,4 +6,4 @@ Browser extension that displays a QR code for the current URL, point the camera 
 
 ## Packaging
 
-`zip -r -FS ../qrcode-extension.zip * --exclude '*.git*' README.md LICENSE`
+`zip -r -FS ../qrcode-extension.zip * --exclude '*.git*' README.md LICENSE NOTICE`
